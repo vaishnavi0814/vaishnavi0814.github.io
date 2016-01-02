@@ -1,0 +1,50 @@
+.job_article
+
+{  
+	display:-webkit-flex; 
+	display:flex;
+	 -webkit-flex-direction: row;
+	flex-direction:row;
+    margin:10px;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+  overflow-y:scroll; 
+}
+
+table{
+width:100%;
+border-width:20px;
+border-spacing:10px; padding:20px;border-width:20px;
+
+}
+th, td{
+border: none;
+}
+th{
+background-color: #514040;
+color: #fff;
+}
+tr:nth-of-type(even){
+background-color: #F3F3F3;
+}
+tr:nth-of-type(odd){
+background-color:#ddd;
+}
+
+.caption
+{
+color:#9aadb8;
+font-weight: bold;
+font-size:25px;
+font-family: Coronetscript, cursive;
+
+}
+
+.para{
+margin-left:20px;
+margin-right:20px;
+text-align:justify;
+margin-top:0px;
+}

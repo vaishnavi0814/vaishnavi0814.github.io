@@ -1,0 +1,139 @@
+.index_container {
+     width:80%;
+	padding:20px 0; 
+	margin: auto;
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+	}
+
+.title{
+
+	float:left;
+
+}
+.nav_header {
+        font-family:New Century Schoolbook, serif;
+        margin-top:40px;
+        font-size:14pt;
+       float: right;
+        
+      }
+
+
+li{
+ list-style-type: none;
+  float: left;
+  margin-left: 15px
+}
+.nav_header a:link, a:visited {font-weight:normal; color:black; text-decoration:none}
+.nav_header a:hover, a:focus, a:active  {color:#9aadb8; text-decoration:none}
+    
+
+.section{
+background:url(images/new.jpg); 
+overflow: hidden;
+background-repeat: repeat-x;}
+
+.main{
+     width:80%;
+	 margin:auto;
+	 display:-webkit-flex; 
+	 -webkit-flex-direction:column;
+	 flex-direction:column;
+	 background:white;
+	
+}
+
+.head{
+        margin-left:20px;
+        color: #b1866e;
+        font-size: 25pt;
+        font-family:Comic Sans MS, cursive, sans-serif;
+        font-weight:bold;
+       
+      }
+	    
+footer{
+	    background:#514040;
+	   padding:40px;
+	     width:100%;
+	     
+	    }
+	    
+.footer
+{ 
+     width:80%; 
+	 word-spacing: 1em;
+	 font-size:12pt;
+	 float:left;
+	 margin-bottom:20px;
+	    
+	
+}
+
+.copyright{
+	float: right;
+	font-size:12px;
+	 word-spacing: 0em;
+	 color:white;
+	 margin-top:20px;
+	  margin-right:40px;
+
+	 
+
+	
+}
+ 
+footer a:link, footer a:visited {font-weight:normal; color:white; text-decoration:none}
+footer a:hover, a:focus, a:active  {color:#9aadb8; text-decoration:none:}
+
+
+ @media only screen and (max-width: 600px)
+ {
+ .index_container {
+     width:100%;
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+	}
+ 
+ .section{
+
+width:100%;
+background:none;
+
+}
+.main{
+     width:100%;
+	 margin:auto;
+	 display:-webkit-flex; 
+	 -webkit-flex-direction:column;
+	 flex-direction:column;
+	 background:white;
+	/* overflow-x: scroll;
+    overflow-y: scroll;*/
+	
+}
+
+/* for input elements */
+input
+{
+width:45%;
+}
+textarea
+{
+	width:50%;
+}
+
+ }
+ 
+ /*extra */
+ body
+ {
+ /*width:900px;*/
+ 	overflow-x: scroll;
+    overflow-y: scroll;
+ }

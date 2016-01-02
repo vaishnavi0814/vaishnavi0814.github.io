@@ -1,0 +1,38 @@
+
+.multimedia_article
+
+{  
+	display:-webkit-flex; 
+	display:flex;
+	 -webkit-flex-direction:row;
+	flex-direction:row;
+    margin:10px;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+    margin:20px;   
+}
+
+.multimedia_item
+{
+ margin:20px; 
+ width:40x%;
+}
+
+
+.caption
+
+{
+color:#9aadb8;
+font-weight: bold;
+font-size:25px;
+font-family: Coronetscript, cursive;
+margin-left:20px;
+}
+iframe
+{
+margin:10px;
+}
+
+span{display:none;}

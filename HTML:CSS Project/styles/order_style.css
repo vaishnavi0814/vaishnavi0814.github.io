@@ -1,0 +1,48 @@
+.order_article
+
+{  
+   display:-webkit-flex; 
+	display:flex;
+	 -webkit-flex-direction:colmun;
+	flex-direction:colmun;
+    margin:10px;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin:30px;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(left top, grey,white,Cornsilk); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left top,  grey,white,Cornsilk); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left top, grey,white,Cornsilk); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(left top, grey,white,Cornsilk);
+}
+
+
+.order_info
+{  
+color:white;
+padding:20px;
+margin:20px;
+
+
+}
+.order_product
+{ 
+overflow-y:scroll; /*new */ 
+padding:20px;
+margin:20px;  
+}
+
+@media only screen and (max-width: 700px)
+ {
+input
+{
+width:45%;
+}
+textarea
+{
+	width:50%;
+}
+
+}

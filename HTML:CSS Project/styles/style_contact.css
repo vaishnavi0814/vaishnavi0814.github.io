@@ -1,0 +1,57 @@
+
+.contact_article
+
+{  
+	display:-webkit-flex; 
+	display:flex;
+	 -webkit-flex-direction: row;
+	flex-direction:row;
+    margin:10px;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+    margin:20px;
+   
+}
+ .contact_map
+ 
+ {
+ width: 50%;
+ flex-grow:1;
+ 
+ }
+  .contact_info
+ 
+ {
+    width:25%;
+    margin-left:25px;
+    
+
+ }
+ 
+.caption
+{
+color:brown;
+font-size:18px;
+font-family: Coronetscript, cursive;
+margin:auto;
+
+}
+.heading
+{
+color:#9aadb8;
+font-weight: bold;
+font-size:25px;
+font-family: Coronetscript, cursive;
+word-spacing: 0em;
+margin-left:20px;
+
+}
+
+
+p{
+margin-left:20px;
+margin-right:20px;
+text-align:justify;
+}

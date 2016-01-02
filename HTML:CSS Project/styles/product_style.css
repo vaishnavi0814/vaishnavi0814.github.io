@@ -1,0 +1,45 @@
+
+.product_article
+
+{  
+	display:-webkit-flex; 
+	display:flex;
+	 -webkit-flex-direction: column;
+	 flex-direction: column;
+	   -webkit-justify-content: space-around;
+   justify-content: space-around;
+	margin:20px; 
+}
+
+
+
+.product_offer
+
+{
+color:#9aadb8;
+font-family: Coronetscript, cursive;
+border-radius: 30px;
+font-size:25pt;
+}
+
+.product_table
+{
+padding:20px;
+border-radius: 30px;
+overflow-y:scroll;
+}
+
+table{
+border-spacing:10px;
+ padding:20px;
+ border-width:20px;
+border-top-color: #808000;
+border-bottom-color: #C71585;
+ border-right-color: #CD853F;
+border-left-color: #000080
+
+}
+
+
+	
+	

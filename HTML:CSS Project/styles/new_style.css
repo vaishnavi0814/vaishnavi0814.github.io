@@ -1,0 +1,60 @@
+
+.new_article
+
+{  
+	display:-webkit-flex; 
+	display:flex;
+	 -webkit-flex-direction: row;
+	 flex-direction: row;
+	   -webkit-justify-content: space-around;
+   justify-content: space-around;
+	
+    width:100%;  
+}
+.new_reservation
+{
+width:40%;
+padding:20px;
+border-radius: 30px;
+color:white;
+margin:5px; /*new */
+
+}
+
+.new_items
+
+{
+margin:5px; /*new */
+width:40%;
+padding:20px;
+border-radius: 30px;
+color:white;
+
+}
+
+
+
+.new_article h3:first-of-type
+{
+color:#FAEBD7;
+}
+
+
+.caption
+{
+color:#9aadb8;
+margin:20px;
+font-family: Coronetscript, cursive;
+}
+
+.para{
+margin-left:20px;
+margin-right:20px;
+text-align:justify;
+}
+
+.li
+{
+float:none
+};
+

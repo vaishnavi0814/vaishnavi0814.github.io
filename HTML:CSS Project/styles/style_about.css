@@ -1,0 +1,35 @@
+  
+
+.about_article
+{  -webkit-align-self: auto;
+    width:auto;
+     margin-left:50px;
+     margin-right:50px;	
+}
+
+.about_article p
+
+{
+text-align:justify;
+font-family:Trebuchet MS, Helvetica, sans-serif
+font-size:12pt;
+} 
+
+.about_article p::first-line {
+    color: #D2B48C;
+    font-variant: small-caps;
+}
+
+.about_article h3:only-of-type{
+padding:5px;
+display: inline-block;
+border-radius: 10px;
+box-shadow: 5px 0px 40px 5px #778899 inset;
+color:white;
+}
+
+.about_article p::first-letter {
+    color:brown;
+    font-size: 2em;
+    
+}

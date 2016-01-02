@@ -1,0 +1,48 @@
+.support_container {
+    
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	-webkit-flex-direction:row;
+	 -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+     -webkit-justify-content: space-around;
+   justify-content: space-around;
+    
+	}
+	
+.support_icons
+
+{
+
+text-align:center;
+width:20%;
+padding:5px;
+}
+
+.support_desc
+
+{
+width:60%;
+margin:10px;
+padding:5px;
+}
+
+span
+{
+font-style: italic;
+margin:20px;
+font-size:15pt;
+}
+.heading
+{
+color:#9aadb8;
+font-weight: bold;
+font-size:25px;
+font-family: Coronetscript, cursive;
+margin:0px;
+}
+
+
+
+

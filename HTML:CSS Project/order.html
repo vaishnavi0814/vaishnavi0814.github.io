@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Poshpooch/Home</title>
+<meta charset="utf-8">
+<meta name=" viewport" content=" width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+<link rel="stylesheet" type="text/css" href="styles/order_style.css" media="screen">
+<link rel="stylesheet" type="text/css"href="print.css" media="print">
+</head>
+<body>
+
+<section class="index_container">
+
+ <header >
+<div class="title">
+<img src="images/icon.jpg" title="Phoshpooch">
+	 </div> 
+	  
+ <nav class="nav_header">
+ <ul>
+ 		   <li><a href="index.html">Home</a></li>
+		   <li><a href="about.html">About</a></li>
+		   <li><a href="contact.html">Contact</a></li>
+		   <li><a href="new.html">New</a></li>
+		   <li><a href="support.html">Support</a></li>
+		   <li><a href="faq.html">FAQ</a></li>
+		   <li><a href="product.html">Product</a></li>
+		   <li><a href="order.html">Order</a></li>
+		    <li><a href="job.html">Job</a></li>
+		     <li><a href="multimedia.html">Multimedia</a></li>
+
+<ul>
+	</nav>
+ </header>
+</section>
+	
+	
+	
+<section class="section">
+
+
+<div class="main">
+	  		
+	  			<h2 class="head" >Order</h2>
+     			 
+     			  <img src="images/line.png" alt="line" width="100%" >
+     			  
+     			  	<p>
+
+	Please enter the information below
+	that is necessary to process your order.
+	All form entries must be completed.</p>
+	
+	<div class="order_article">
+<form>
+
+					 
+<article class="order_info">
+
+<fieldset>
+				<legend  align="center">Customer Information</legend>	
+<table>
+<tr>
+   <th align=left>First Name</td>
+   <td><input type=text name="fname" size=35 maxlength=30 id="fname" required>
+   </td>
+</tr>
+
+<tr>
+   <th align=left>Last Name</td>
+   <td><input type=text name="lname" size=35 maxlength=50 id="lname" required>
+   </td>
+</tr>
+
+<tr>
+   <th align=left>Street Address</td>
+   <td><input type=text name="address" size=35 maxlength=30 id="address" required></td>
+</tr>
+<tr>
+   <th align=left>City</td>
+   <td><input type=text name="city" size=35 maxlength=30 id="city" required></td>
+</tr>
+<tr>
+   <th align=left>State</td>
+   <td><input type=text name="state" size=2 maxlength=2 id="state" required>
+   </td>
+</tr>
+<tr>
+   <th align=left>Zip Code</td>
+   <td><input type=text name="zip" size=9 maxlength=9 id="zip" required>
+   </td>
+</tr>
+<tr>
+   <th align=left>Telephone</td>
+   <td><input type=tel name="phone" size=14 maxlength=14
+   id="phone" required></td>
+</tr>
+<tr>
+   <th align=left>Email</td>
+   <td><input type="email" name="email" size=35 maxlength=40
+   id="email" required></td>
+</tr>
+<tr>
+   <th align=left>Credit Card No</td>
+   <td><input type=text size=16 name="ccnum" size=16 maxlength=16
+   id="ccnum" required></td>
+</tr>
+<tr>
+   <th align=left>Credit Card type</td>
+   <td><select name="cctype">
+	<option selected>Visa
+	<option>Master Card
+	<option>American Express
+	</select>
+	</td>
+</tr>
+<tr>
+   <th align=left>Credit Card Expiration</td>
+   <td><input type="month" name="ccexpire" size=7 maxlength=7
+   id="ccexpire" required></td>
+</tr>
+<tr>
+   <th align=left>Comments</td>
+   <td><textarea name="comment" cols=50 row=2 wrap=physical>
+   Enter comment's here</textarea></td>
+</tr>
+</table>
+</fieldset>
+
+</article>
+
+<article class="order_product">
+
+<table  border>
+
+<tr >
+   <th class="color" width="30%">Category<th class="color"width="40%">Description<th  class="color" width="10%">Unit Price<th class="color" width="20%">
+   Quantity<th class="color" width="30%">Total Price
+</tr>
+<tr>
+   <th class="color" rowspan=3 >Dog Beds</th>
+   <th align=left>Small</th>
+   <th align=left>$9.95</th>
+   <td align=right><input type=text size=3 name="bedsmall">
+   </td>
+   <td align=right><input type=text size=10 name="price1">
+   </td>
+</tr>
+<tr>
+   <th align=left>Medium</th>
+   <th align=left>$19.95</th>
+   <td align=right><input type=text size=3 name="bedmedium">
+   </td>
+   <td align=right><input type=text size=10 name="price2">
+   </td>
+</tr>
+<tr>
+   <th align=left>Large</th>
+   <th align=left>$29.95</th>
+   <td align=right><input type=text size=3 name="bedlarge">
+   </td>
+   <td align=right><input type=text size=10 name="price3">
+   </td>
+</tr>
+<tr align=right>
+  <th  class="color" colspan=4>Subtotal $</th><td><input type=text size=10></td>
+</tr>
+<tr>
+   <th  class="color" rowspan=2>Collars
+   <th align=left>Leather</th>
+   <th align=left>$5.00</th>
+   <td align=right><input type=text size=3 name="lcollar">
+   </td>
+   <td align=right><input type=text size=10 name="price4">
+   </td>
+</tr>
+<tr>
+   <th align=left>Personalized</th>
+   <th align=left>$10.00</th>
+   <td align=right><input type=text size=3 name="pcollar">
+   </td>
+   
+   <td align=right><input type=text size=10 name="price5">
+   </td>
+   
+   <tr align=right>
+  <th  class="color" colspan=4>Subtotal $</th><td><input type=text size=10></td>
+</tr>
+</tr>
+<tr>
+   <th  class="color"rowspan=2>Toys
+   <th align=left>Soft toys</th>
+   <th align=left>$13.99</th>
+   <td align=right><input type=text size=3 name="stoys"></td>
+   <td align=right><input type=text size=10 name="price6">
+   </td>
+</tr>
+<tr>
+   <th align=left>Active toys</th>
+   <th align=left>$11.95</th>
+   <td align=right><input type=text size=3 name="atoys"></td>
+   <td align=right><input type=text size=10 name="price7"></td>
+</tr>
+
+<tr align=right>
+  <th  class="color" colspan=4>Subtotal $</th><td><input type=text size=10></td>
+  </tr>
+  <tr align=right>
+  <th  colspan=4>Total $</th><td><input type=text size=10></td>
+  </tr>
+</table>
+</article>
+	
+
+
+	
+	<div style="text-align:center"> 
+				<button type="submit" name="SubmitButton" value="Submit">Submit Form</button>
+				<button type="reset" name="ResetButton" value="Reset">Reset Form</button>
+					
+ 
+</div>
+</form>
+
+ </div>
+</section>
+		<br>			
+
+<footer style="overflow:hidden" >
+	
+	<nav class="footer">
+
+<ul>
+		  <li> <a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="new.html">New</a></li>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="product.html">Product</a></li>
+		<li><a href="order.html">Order</a></li>
+		 <li><a href="job.html">Job</a></li>
+		    <li> <a href="multimedia.html">Multimedia</a></li>
+		</nav>    
+		<div class="copyright">	
+		© 2015 Vaishnavi Muthangi.
+		</div>
+		
+	 </div>
+  </footer>
+ </body>
+</html>
